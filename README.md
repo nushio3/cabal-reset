@@ -1,6 +1,6 @@
 cabal-reset
 ===========
 
-[![eclipse](http://www.nasa.gov/images/content/265169main_spaceball_full.jpg)]()
+[![eclipse](https://raw.github.com/nushio3/cabal-reset/master/img/eclipse.png)]()
 
 Destroy all cabals. They can be reinstalled.
