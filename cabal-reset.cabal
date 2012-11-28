@@ -29,5 +29,5 @@ Source-Repository head
 
 executable Wrath
   main-is:             main.hs
-  build-depends:       base ==4.*
+  build-depends:       base >=4.6 && <5
                      , process
