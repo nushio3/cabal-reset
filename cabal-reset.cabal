@@ -4,10 +4,13 @@
 name:                cabal-reset
 version:             0.2.0.0
 synopsis:            omnipresent salvation from cabal hell
-description:         <<http://www.nasa.gov/images/content/265169main_spaceball_full.jpg>>
+description:         
+                     > Usage: Wrath of God (2)(λ)(λ)
+                     .
+                     <<http://www.nasa.gov/images/content/265169main_spaceball_full.jpg>>
                      .
                      Destroy all cabals. They can be reinstalled.
-
+                     .
 
 homepage:            https://github.com/nushio3/cabal-reset
 source-repository:   git clone 
@@ -24,7 +27,7 @@ Source-Repository head
   Type: git
   Location: https://github.com/nushio3/cabal-reset.git
 
-executable reset-cabal
+executable Wrath
   main-is:             main.hs
   build-depends:       base ==4.*
                      , process
