@@ -4,7 +4,11 @@
 name:                cabal-reset
 version:             0.2.0.0
 synopsis:            salvation of all beings from cabal hell
-description:         Destroy all cabals. They can be reinstalled.
+description:         <<http://www.nasa.gov/images/content/265169main_spaceball_full.jpg>>
+                     .
+                     Destroy all cabals. They can be reinstalled.
+
+
 homepage:            https://github.com/nushio3/cabal-reset
 license:             BSD3
 license-file:        LICENSE
