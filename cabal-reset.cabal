@@ -3,13 +3,14 @@
 
 name:                cabal-reset
 version:             0.2.0.0
-synopsis:            salvation of all beings from cabal hell
+synopsis:            omnipresent salvation from cabal hell
 description:         <<http://www.nasa.gov/images/content/265169main_spaceball_full.jpg>>
                      .
                      Destroy all cabals. They can be reinstalled.
 
 
 homepage:            https://github.com/nushio3/cabal-reset
+source-repository:   git clone 
 license:             BSD3
 license-file:        LICENSE
 author:              Takayuki Muranushi
@@ -19,7 +20,11 @@ category:            Development
 build-type:          Simple
 cabal-version:       >=1.8
 
-executable cabal-reset
+Source-Repository head
+  Type: git
+  Location: https://github.com/nushio3/cabal-reset.git
+
+executable reset-cabal
   main-is:             main.hs
   build-depends:       base ==4.*
                      , process
