@@ -10,7 +10,7 @@ main = do
 
 usage :: IO ()
 usage = mapM_ putStrLn
-        [ "Usage: Wrath of God (2)(λ)(λ)"
+        [ "Usage: Wrath of God                (2)(λ)(λ)"
         , "Destroy all cabals. They can be reinstalled."
         ]
 
