@@ -2,6 +2,9 @@
 import System.Environment
 import System.Process
 
+import GHC.Conc (atomically)
+import Acme.Missiles.STM
+
 main :: IO ()
 main = do
   argv <- getArgs
@@ -15,7 +18,9 @@ usage = mapM_ putStrLn
         ]
 
 go :: IO ()
-go = mapM_ system
-     [ "rm -rf ~/.ghc"
-     , "ghc-pkg recache --user"
-     ]
+go = do
+  atomically $ launchMissilesSTM
+  mapM_ system
+    [ "rm -rf ~/.ghc"
+    , "ghc-pkg recache --user"
+    ]
